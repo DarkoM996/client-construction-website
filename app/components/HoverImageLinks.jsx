@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { FiArrowRight } from "react-icons/fi";
+// import { FiArrowRight } from "react-icons/fi";
 
 const HoverImageLinks = () => {
   return (
@@ -113,7 +113,7 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
           type: "spring",
         }}
       >
-        <FiArrowRight className="text-4xl text-primary_lighterColor-200" />
+        {/* <FiArrowRight className="text-4xl text-primary_lighterColor-200" /> */}
       </motion.div>
     </motion.a>
   );
