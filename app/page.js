@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <div>
         <h1>Welcome back to another version of this project</h1>
       </div>
+      <Navbar />
     </main>
   );
 }
