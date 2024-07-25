@@ -7,7 +7,6 @@ export default function Home() {
       <div>
         <h1>Welcome back to another version of this project</h1>
       </div>
-      <Navbar />
     </main>
   );
 }
