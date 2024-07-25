@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={cormorant.className}>
-        <Navbar />
-        {children}
+        <div className="w-full min-h-screen">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
