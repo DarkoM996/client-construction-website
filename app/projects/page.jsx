@@ -1,7 +1,12 @@
 import React from "react";
+import Projects from "../components/Projects";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <Projects />
+    </>
+  );
 };
 
 export default page;
