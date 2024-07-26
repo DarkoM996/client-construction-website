@@ -4,7 +4,7 @@ import gridimg1 from "../../public/images/picture12.jpg";
 
 const CorporateGrid = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-screen grid grid-cols-1 md:grid-cols-2 gap-6 relative px-6 py-4 lg:px-28">
+    <div className="max-w-screen-3xl mx-auto w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-6 relative px-6 py-4 lg:px-28">
       {/* Project #1 */}
       <div className="relative w-full h-[420px]">
         <Image
