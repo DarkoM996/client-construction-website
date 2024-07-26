@@ -8,7 +8,6 @@ import gridimg5 from "../../public/images/picture6.jpg";
 import gridimg6 from "../../public/images/picture7.jpg";
 import gridimg7 from "../../public/images/picture8.jpg";
 import gridimg8 from "../../public/images/picture10.jpg";
-import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 
 const Projects = () => {
