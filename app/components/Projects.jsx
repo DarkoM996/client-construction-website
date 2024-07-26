@@ -95,10 +95,10 @@ const Projects = () => {
           </Link>
           <div className="flex flex-col justify-center items-center p-4 gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              Furnico
+              Corporate Building
             </h4>
             <p className="text-xl font-light text-primary_customGray-700">
-              Ecommerce Full Stack Web App
+              Corporate building in Vancouver
             </p>
           </div>
         </div>
