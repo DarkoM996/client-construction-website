@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import gridimg1 from "../../public/images/picture12.jpg";
+import gridimg1 from "../../public/images/picture5.jpg";
 
 const CorporateGrid = () => {
   return (
