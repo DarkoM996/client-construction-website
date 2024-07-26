@@ -1,4 +1,5 @@
 import HotelAbout from "@/app/components/HotelAbout";
+import HotelGrid from "@/app/components/HotelGrid";
 import HotelHero from "@/app/components/HotelHero";
 import React from "react";
 
@@ -7,6 +8,7 @@ const page = () => {
     <div>
       <HotelHero />
       <HotelAbout />
+      <HotelGrid />
     </div>
   );
 };
