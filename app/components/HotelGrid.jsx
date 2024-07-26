@@ -10,16 +10,16 @@ const HotelGrid = () => {
   return (
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen grid grid-cols-1 md:grid-cols-6 gap-6 relative px-6 py-4 lg:px-28">
       {/* Project #1 */}
-      <div className="relative w-full h-[420px] lg:col-span-2">
+      <div className="relative w-full h-[420px] lg:col-span-2 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg1}
           alt="picture1"
-          className="w-full h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover rounded-3xl "
         />
       </div>
       {/* Project #2 */}
-      <div className="relative w-full h-[420px] lg:col-span-4">
+      <div className="relative w-full h-[420px] lg:col-span-4 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg2}
@@ -28,7 +28,7 @@ const HotelGrid = () => {
         />
       </div>
       {/* Project #3 */}
-      <div className="relative w-full h-[420px] lg:col-span-4">
+      <div className="relative w-full h-[420px] lg:col-span-4 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg3}
@@ -37,7 +37,7 @@ const HotelGrid = () => {
         />
       </div>
       {/* Project #4 */}
-      <div className="relative w-full h-[420px] lg:col-span-2">
+      <div className="relative w-full h-[420px] lg:col-span-2 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg4}
@@ -46,7 +46,7 @@ const HotelGrid = () => {
         />
       </div>
       {/* Project #5 */}
-      <div className="relative w-full h-[420px] lg:col-span-2">
+      <div className="relative w-full h-[420px] lg:col-span-2 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg5}
@@ -55,7 +55,7 @@ const HotelGrid = () => {
         />
       </div>
       {/* Project #6 */}
-      <div className="relative w-full h-[420px] lg:col-span-4">
+      <div className="relative w-full h-[420px] lg:col-span-4 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
           src={gridimg1}

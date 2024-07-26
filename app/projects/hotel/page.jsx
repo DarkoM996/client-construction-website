@@ -1,3 +1,4 @@
+import Footer from "@/app/components/Footer";
 import HotelAbout from "@/app/components/HotelAbout";
 import HotelGrid from "@/app/components/HotelGrid";
 import HotelHero from "@/app/components/HotelHero";
@@ -9,6 +10,7 @@ const page = () => {
       <HotelHero />
       <HotelAbout />
       <HotelGrid />
+      <Footer />
     </div>
   );
 };
