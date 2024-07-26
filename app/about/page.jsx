@@ -1,5 +1,6 @@
 import React from "react";
 import AboutHero from "../components/AboutHero";
+import Footer from "../components/Footer";
 import AboutValue from "./../components/AboutValue";
 
 const page = () => {
@@ -7,6 +8,7 @@ const page = () => {
     <>
       <AboutHero />
       <AboutValue />
+      <Footer />
     </>
   );
 };
