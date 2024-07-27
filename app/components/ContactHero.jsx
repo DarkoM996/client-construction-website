@@ -8,11 +8,12 @@ const ContactHero = () => {
           Contact
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center text-xl gap-8">
+          {/* Links that would go to the client's socials */}
           <h2 className="text-base">Facebook</h2>
-          <h2>Instagram</h2>
-          <h2>YouTube</h2>
-          <h2>Twitter</h2>
-          <h2>Pinterest</h2>
+          <h2 className="text-base">Instagram</h2>
+          <h2 className="text-base">YouTube</h2>
+          <h2 className="text-base">Twitter</h2>
+          <h2 className="text-base">Pinterest</h2>
         </div>
       </div>
     </div>
