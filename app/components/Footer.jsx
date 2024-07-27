@@ -11,12 +11,12 @@ const Footer = () => {
         {/* This will be go to the client's actual web page. Here's the code below. For now, the link won't go anywhere.*/}
         <Link
           // onClick={() =>
-          //   (window.location = "mailto:contact@clientdomain.com")
+          //   (window.location = "mailto:contact@client.com")
           // }
           href="#"
           className="text-5xl md:text-6xl lg:text-8xl items-center text-primary_lighterColor-200 hover:text-primary_customGrey-300"
         >
-          contact@camyork.com
+          Contact
         </Link>
       </div>
       {/* Bottom part section */}
