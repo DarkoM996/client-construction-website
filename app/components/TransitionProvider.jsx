@@ -12,7 +12,7 @@ const TransitionProvider = ({ children }) => {
       <div key={pathName} className="w-screen h-screen">
         <motion.div
           className="h-screen w-screen fixed bg-primary_lighterColor-300 z-40"
-          initial="false"
+          initial="true"
           animate={{ height: "0vh" }}
           exit={{ height: "140vh" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
