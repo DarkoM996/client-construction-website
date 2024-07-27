@@ -18,7 +18,7 @@ module.exports = {
           400: "#E0E0E0",
           500: "#D9D9D9",
         },
-        primary_custonGrey: {
+        primary_customGrey: {
           50: "#BFBFBF",
           100: "#B3B3B3",
           200: "#A6A6A6",
