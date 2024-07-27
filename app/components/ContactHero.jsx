@@ -8,7 +8,7 @@ const ContactHero = () => {
           Contact
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center text-xl gap-8">
-          <h2>Facebook</h2>
+          <h2 className="text-base">Facebook</h2>
           <h2>Instagram</h2>
           <h2>YouTube</h2>
           <h2>Twitter</h2>
