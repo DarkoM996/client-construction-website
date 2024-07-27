@@ -1,3 +1,4 @@
+import Footer from "@/app/components/Footer";
 import LuxuryAbout from "@/app/components/LuxuryAbout";
 import LuxuryGrid from "@/app/components/LuxuryGrid";
 import LuxuryHero from "@/app/components/LuxuryHero";
@@ -9,6 +10,7 @@ const page = () => {
       <LuxuryHero />
       <LuxuryAbout />
       <LuxuryGrid />
+      <Footer />
     </>
   );
 };
