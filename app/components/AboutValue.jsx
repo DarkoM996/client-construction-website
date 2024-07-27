@@ -43,7 +43,13 @@ const AboutValue = () => {
         </div>
       </motion.div>
       {/* Grid #2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:py-24">
+      <motion.div
+        initial={{ x: "-400px" }}
+        animate={isSkillRefInView ? { x: 0 } : {}}
+        transition={{ delay: 0.8 }}
+        ref={skillRef}
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:py-24"
+      >
         {/* Paragraph */}
         <h2 className="text-4xl md:text-5xl lg:text-6xl">What We Do</h2>
         {/* Image */}
@@ -64,7 +70,7 @@ const AboutValue = () => {
             className="object-cover w-full h-[500px] rounded-3xl"
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
