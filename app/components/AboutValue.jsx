@@ -14,7 +14,7 @@ const AboutValue = () => {
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:py-24 lg:px-28">
       {/* Grid #1 */}
       <motion.div
-        initial={{ x: "-600px" }}
+        initial={{ x: "-300px" }}
         animate={isSkillRefInView ? { x: 0 } : {}}
         transition={{ delay: 0.2 }}
         ref={skillRef}
@@ -44,7 +44,7 @@ const AboutValue = () => {
       </motion.div>
       {/* Grid #2 */}
       <motion.div
-        initial={{ x: "-600px" }}
+        initial={{ x: "-300px" }}
         animate={isSkillRefInView ? { x: 0 } : {}}
         transition={{ delay: 0.8 }}
         ref={skillRef}
