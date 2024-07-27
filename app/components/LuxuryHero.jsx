@@ -29,7 +29,7 @@ const LuxuryHero = () => {
               src={backgroundimage}
               alt="background image"
               priority
-              width={600}
+              width={900}
               height={600}
               className="w-full h-full object-cover rounded-3xl"
             />
