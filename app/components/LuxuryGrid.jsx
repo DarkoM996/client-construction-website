@@ -6,7 +6,7 @@ import gridimg3 from "../../public/images/hotel picture 3.jpg";
 import gridimg4 from "../../public/images/hotel picture 4.jpg";
 import gridimg5 from "../../public/images/hotel picture 5.jpg";
 
-const HotelGrid = () => {
+const LuxuryGrid = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full min-h-screen grid grid-cols-1 md:grid-cols-6 gap-6 relative px-6 py-4 lg:px-28">
       {/* Project #1 */}
@@ -67,4 +67,4 @@ const HotelGrid = () => {
   );
 };
 
-export default HotelGrid;
+export default LuxuryGrid;
