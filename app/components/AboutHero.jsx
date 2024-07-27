@@ -1,12 +1,24 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import backgroundimg from "../../public/images/picture12.jpg";
+import { useInView, useScroll } from "framer-motion";
 
 const AboutHero = () => {
+  const skillRef = useRef();
+  const isSkillRefInView = useInView(skillRef);
+
   return (
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
       {/* Container Setup with flex */}
-      <div className="flex flex-col justify-center items-start w-full h-full gap-6 md:gap-10">
+      <motion.div
+        initial={{ x: "-900px" }}
+        animate={isSkillRefInView ? { x: 0 } : {}}
+        transition={{ delay: 0.2 }}
+        className="flex flex-col justify-center items-start w-full h-full gap-6 md:gap-10"
+        ref={skillRef}
+      >
         <h1 className="text-5xl md:text-6xl lg:text-7xl py-4">Studio</h1>
         {/* Image Container */}
         <div className="relative w-full h-[500px] lg:h-[700px]">
@@ -25,7 +37,7 @@ const AboutHero = () => {
           designers operating within Canada, with a combined 24 years of
           industry experience.
         </h2>
-      </div>
+      </motion.div>
     </div>
   );
 };
