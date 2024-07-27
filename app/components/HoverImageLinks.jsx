@@ -13,7 +13,7 @@ const HoverImageLinks = () => {
         <Link
           heading="Luxury Building"
           subheading="Building a luxury building in Ontario"
-          imgSrc="/images/picture1.jpg"
+          imgSrc="/images/hero.jpg"
           href="/projects/luxurybuilding"
         />
         <Link
