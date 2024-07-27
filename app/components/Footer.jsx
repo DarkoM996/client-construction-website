@@ -16,7 +16,7 @@ const Footer = () => {
           href="/contact"
           className="text-5xl md:text-6xl lg:text-8xl items-center text-primary_lighterColor-200 hover:text-primary_customGrey-300"
         >
-          CamYork
+          Contact
         </Link>
       </div>
       {/* Bottom part section */}

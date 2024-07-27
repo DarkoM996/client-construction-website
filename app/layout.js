@@ -1,6 +1,5 @@
 import { Cormorant } from "next/font/google";
 import Navbar from "./components/Navbar";
-import TransitionProvider from "./components/TransitionProvider";
 import "./globals.css";
 
 const cormorant = Cormorant({ subsets: ["latin"] });
@@ -15,7 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={cormorant.className}>
         <main className="w-full h-screen">
-          <TransitionProvider>{children}</TransitionProvider>
+          <Navbar />
+          {children}
         </main>
       </body>
     </html>
