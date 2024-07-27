@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import gridimg1 from "../../public/images/picture2.jpg";
-import gridimg2 from "../../public/images/picture3.jpg";
+import gridimg1 from "../../public/images/hotel picture 1.jpg";
+import gridimg2 from "../../public/images/hero.jpg";
 import gridimg3 from "../../public/images/picture4.jpg";
 import gridimg4 from "../../public/images/picture5.jpg";
 import gridimg5 from "../../public/images/picture6.jpg";
@@ -51,10 +51,10 @@ const Projects = () => {
           </Link>
           <div className="flex flex-col justify-center items-center p-4 gap-2 ">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              Furnico
+              Toronto Luxe
             </h4>
             <p className="text-xl font-light text-primary_customGray-700">
-              Ecommerce Full Stack Web App
+              Elite residence in Toronto
             </p>
           </div>
         </div>
@@ -152,10 +152,10 @@ const Projects = () => {
           </Link>
           <div className="flex flex-col justify-center items-center p-4 gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              Furnico
+              Belgico
             </h4>
             <p className="text-xl font-light text-primary_customGray-700">
-              Ecommerce Full Stack Web App
+              Belgium like inspired hotel
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ const Projects = () => {
               Furnico
             </h4>
             <p className="text-xl font-light text-primary_customGray-700">
-              Ecommerce Full Stack Web App
+              Elite residence in Vancouver
             </p>
           </div>
         </div>
