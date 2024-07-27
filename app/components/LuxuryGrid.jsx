@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import gridimg1 from "../../public/images/hotel picture 1.jpg";
-import gridimg2 from "../../public/images/hotel picture 2.jpg";
-import gridimg3 from "../../public/images/hotel picture 3.jpg";
-import gridimg4 from "../../public/images/hotel picture 4.jpg";
-import gridimg5 from "../../public/images/hotel picture 5.jpg";
+import gridimg1 from "../../public/images/picture15.jpg";
+import gridimg2 from "../../public/images/picture18.jpg";
+import gridimg3 from "../../public/images//picture19.jpg";
+import gridimg4 from "../../public/images//picture20.jpg";
+import gridimg5 from "../../public/images//picture22.jpg";
+import gridimg6 from "../../public/images/hero.jpg";
 
 const LuxuryGrid = () => {
   return (
@@ -58,7 +59,7 @@ const LuxuryGrid = () => {
       <div className="relative w-full h-[420px] lg:col-span-4 hover:scale-90  duration-500 transition-transform">
         <Image
           priority={true}
-          src={gridimg1}
+          src={gridimg6}
           alt="picture1"
           className="w-full h-full object-cover rounded-3xl"
         />

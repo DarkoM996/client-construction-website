@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import backgroundimage from "../../public/images/hero.jpg";
+import backgroundimage2 from "../../public/images/picture15.jpg";
 
 const LuxuryHero = () => {
   return (
@@ -26,7 +27,7 @@ const LuxuryHero = () => {
           </div>
           <div className="relative w-full h-[300px] md:h-[400px] md:col-span-6">
             <Image
-              src={backgroundimage}
+              src={backgroundimage2}
               alt="background image"
               priority
               width={900}
