@@ -26,7 +26,7 @@ const HoverImageLinks = () => {
           heading="Vancouver Residence"
           subheading="Building an elite hotel in Vancouver"
           imgSrc="/images/picture3.jpg"
-          href="/residence"
+          href="/projects/residencebuilding"
         />
         <Link
           heading="Luxury Home"
