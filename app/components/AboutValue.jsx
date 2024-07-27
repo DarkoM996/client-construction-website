@@ -1,13 +1,25 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import React, { useRef } from "react";
 import gridimg from "../../public/images/picture13.jpg";
 import gridimg2 from "../../public/images/picture14.jpg";
 
 const AboutValue = () => {
+  const skillRef = useRef();
+  const isSkillRefInView = useInView(skillRef);
+
   return (
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:py-24 lg:px-28">
       {/* Grid #1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-16">
+      <motion.div
+        initial={{ x: "400px" }}
+        animate={isSkillRefInView ? { x: 0 } : {}}
+        transition={{ delay: 0.2 }}
+        ref={skillRef}
+        className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-16"
+      >
         {/* Paragraph */}
         <h2 className="text-4xl md:text-5xl lg:text-6xl">Area Of Expertise</h2>
         {/* Image */}
@@ -29,7 +41,7 @@ const AboutValue = () => {
             className="object-cover w-full h-[500px] rounded-3xl"
           />
         </div>
-      </div>
+      </motion.div>
       {/* Grid #2 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:py-24">
         {/* Paragraph */}
