@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { lazy } from "react";
+import React from "react";
 import hero from "../../public/images/hero.jpg";
 import Link from "next/link";
 
@@ -11,9 +11,8 @@ const Hero = () => {
       <div className="relative h-1/2 md:h-2/3 ">
         <Image
           priority={true}
-          height={720}
-          width={1000}
-          placeholder="blur"
+          height={600}
+          width={900}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
