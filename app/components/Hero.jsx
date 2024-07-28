@@ -1,9 +1,12 @@
+"use client";
 import Image from "next/image";
-import React, { lazy } from "react";
+import React, { lazy, useState } from "react";
 import hero from "../../public/images/hero.jpg";
 import Link from "next/link";
 
 const Hero = () => {
+  const [isImageLoading, setImageLoading] = useState(true);
+
   return (
     <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
       {/* Image Container */}
@@ -13,10 +16,11 @@ const Hero = () => {
           priority={true}
           height={720}
           width={1000}
+          onLoad={() => setImageLoading(false)}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
-          className="w-full h-[420px] sm:h-[600px] object-cover rounded-3xl bg-center aspect-square"
+          className="w-full h-[420px] sm:h-[600px] object-cover rounded-3xl bg-center aspect-square {`${isImageLoading ? 'blur' : 'remove-blur'}}"
         />
       </div>
       {/* Text */}
