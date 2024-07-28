@@ -6,19 +6,6 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
-      {/* Image Container */}
-      {/* Test for change */}
-      <div className="relative h-1/2 md:h-2/3 ">
-        <Image
-          priority={true}
-          height={600}
-          width={900}
-          src={hero}
-          alt="hero image"
-          // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
-          className="w-full h-[420px] sm:h-[600px] object-cover rounded-3xl bg-center aspect-square"
-        />
-      </div>
       {/* Text */}
       <div className="h-full w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 py-5">
         <div className="w-full md:w-1/2 lg:w-full">
@@ -49,6 +36,19 @@ const Hero = () => {
             </Link>
           </div>
         </div>
+      </div>
+      {/* Image Container */}
+      {/* Test for change */}
+      <div className="relative h-1/2 md:h-2/3 ">
+        <Image
+          priority={true}
+          height={600}
+          width={900}
+          src={hero}
+          alt="hero image"
+          // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
+          className="w-full h-[420px] sm:h-[600px] object-cover rounded-3xl bg-center aspect-square"
+        />
       </div>
     </main>
   );
