@@ -13,7 +13,7 @@ const Hero = () => {
           priority={true}
           height={600}
           width={900}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="320px"
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
