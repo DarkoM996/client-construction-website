@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { lazy } from "react";
 import hero from "../../public/images/hero.jpg";
 import Link from "next/link";
 
