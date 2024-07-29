@@ -9,11 +9,11 @@ const Hero = () => {
       <div className="flex flex-col justify-center items-start">
         {/* Test for change */}
         {/* Image Container */}
-        <div className="relative w-full h-1/4 md:h-[600px] ">
+        <div className="relative w-full h-full">
           <Image
-            priority
-            height={600}
-            width={1280}
+            priority={true}
+            height={1000}
+            width={1000}
             src={hero}
             alt="hero image"
             // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
