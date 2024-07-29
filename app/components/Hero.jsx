@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="relative w-full h-1/4 md:h-[600px] ">
           <Image
             priority
-            height={720}
+            height={600}
             width={1280}
             src={hero}
             alt="hero image"
