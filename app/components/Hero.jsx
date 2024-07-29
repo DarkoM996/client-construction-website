@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Test for change */}
       <div className="relative w-full h-1/3 md:h-2/3 ">
         <Image
-          priority={true}
+          priority
           height={720}
           width={1080}
           src={hero}
