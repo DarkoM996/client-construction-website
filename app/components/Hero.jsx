@@ -13,7 +13,7 @@ const Hero = () => {
           priority={true}
           height={600}
           width={900}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw"
           placeholder="blur"
           src={hero}
           alt="hero image"
