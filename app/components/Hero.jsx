@@ -12,7 +12,7 @@ const Hero = () => {
         <Image
           priority
           height={720}
-          width={1080}
+          width={1280}
           quality={100}
           src={hero}
           alt="hero image"
