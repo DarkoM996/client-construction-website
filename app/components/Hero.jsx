@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
+    <main className="max-w-screen-3xl mx-auto w-full md:min-h-screen relative px-6 py-4 lg:px-28">
       <div className="flex flex-col justify-center items-start">
         {/* Test for change */}
         {/* Image Container */}
-        <div className="relative w-full h-1/4 md:h-[600px] ">
+        <div className="hidden sm:flex relative w-full h-1/4 sm:h-[500px] md:h-[600px] ">
           <Image
             priority
             height={600}
@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </div>
         {/* Text */}
-        <div className="h-full w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 py-5">
+        <div className="h-full w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-8 py-5">
           <div className="w-full md:w-1/2 lg:w-full">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-wrap w-full lg:w-2/3 h-full">
               Hotel Construction Amplified
