@@ -11,10 +11,8 @@ const Hero = () => {
       <div className="relative h-1/3 md:h-2/3 ">
         <Image
           priority={true}
-          height={600}
-          width={900}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw"
-          placeholder="blur"
+          height={720}
+          width={1080}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
