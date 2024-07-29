@@ -10,12 +10,13 @@ const Hero = () => {
       {/* Test for change */}
       <div className="relative h-1/3 md:h-2/3 ">
         <Image
-          priority={true}
-          fill
+          priority
+          height={720}
+          width={1280}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
-          className="w-full max-h-full object-cover rounded-3xl bg-center aspect-square"
+          className="w-full h-[320px] md:h-[600px] object-cover rounded-3xl bg-center aspect-square"
         />
       </div>
       {/* Text */}
