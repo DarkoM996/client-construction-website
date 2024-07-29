@@ -8,7 +8,7 @@ const Hero = () => {
     <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
       {/* Image Container */}
       {/* Test for change */}
-      <div className="relative h-1/3 md:h-2/3 ">
+      <div className="relative w-full h-1/3 md:h-2/3 ">
         <Image
           priority={true}
           height={720}
