@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 lg:px-28">
+    <main className="max-w-screen-3xl mx-auto w-full min-h-screen flex flex-col justify-start items-start relative px-6 py-4 lg:px-28 lg:pb-16">
       {/* Image Container */}
       {/* Test for change */}
-      <div className="relative h-1/3 md:h-2/3 ">
+      <div className="relative w-full h-1/3 md:h-2/3 ">
         <Image
           priority
           height={720}
@@ -16,7 +16,7 @@ const Hero = () => {
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
-          className="w-full h-[320px] md:h-[600px] object-cover rounded-3xl bg-center aspect-square"
+          className="w-full h-[320px] sm:h-[600px] object-cover rounded-3xl bg-center aspect-square"
         />
       </div>
       {/* Text */}
