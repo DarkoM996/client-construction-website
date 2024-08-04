@@ -5,7 +5,7 @@ import backgroundimage2 from "../../public/images/hotel picture 2.jpg";
 
 const HotelHero = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-4 md:px-12 md:py-10 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-full relative px-6 py-4 md:px-12 md:py-10 lg:px-28">
       {/* Grid for the entire section */}
       <div className="grid grid-cols-1 gap-6 md:gap-10 lg:gap-16 text-wrap">
         {/* Heading */}
