@@ -15,7 +15,7 @@ const Hero = () => {
             height={600}
             width={1280}
             src={hero}
-            alt="hero image"
+            alt="hero section image"
             // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
             className="w-full h-full object-cover rounded-3xl bg-center aspect-square"
           />
