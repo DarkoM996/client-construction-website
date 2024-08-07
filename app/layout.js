@@ -1,8 +1,6 @@
 import { Cormorant } from "next/font/google";
-import { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import Loading from "./loading";
 
 const cormorant = Cormorant({ subsets: ["latin"] });
 
@@ -16,10 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={cormorant.className}>
         <main className="w-full h-screen">
-          <Suspense fallback={<Loading />}>
-            <Navbar />
-            {children}
-          </Suspense>
+          <Navbar />
+          {children}
         </main>
       </body>
     </html>
