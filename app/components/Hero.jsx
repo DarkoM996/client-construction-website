@@ -27,7 +27,7 @@ const Hero = () => {
               Hotel Construction Amplified
             </h1>
           </div>
-          <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
+          <div className="flex flex-col justify-center items-center gap-6 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
             <p className="text-wrap w-full h-full">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
               aliquid rerum beatae, non ea officia repellat architecto? Alias
