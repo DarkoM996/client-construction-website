@@ -28,26 +28,9 @@ export default function NotFound() {
             </h1>
           </div>
           <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
-            <p className="text-wrap w-full h-full">
-              Unfortunately something went wrong. The page that you were looking
-              doesn't exist. You can go back to the homepage from here or go to
-              the projects to select other projects.
-            </p>
-            {/* Buttons */}
-            <div className="flex flex-col sm:flex-row w-full gap-4">
-              <Link
-                href="/"
-                className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px] text-center"
-              >
-                Homepage
-              </Link>
-              <Link
-                href="/projects"
-                className="px-8 py-4 bg-primary_backgroundColor-900 hover:bg-primary_backgroundColor-800 text-white rounded-full border border-white w-full  sm:w-[160px] text-center"
-              >
-                Projects
-              </Link>
-            </div>
+            <h2>Not Found</h2>
+            <p>Could not find requested resource</p>
+            <Link href="/">Return Home</Link>
           </div>
         </div>
       </div>
