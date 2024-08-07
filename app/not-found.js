@@ -4,7 +4,7 @@ import React from "react";
 import hero from "../public/images/picture8.jpg";
 import Link from "next/link";
 
-export default async function NotFound() {
+export default function NotFound() {
   return (
     <main className="max-w-screen-3xl mx-auto w-full md:min-h-screen relative px-6 py-4 lg:px-28">
       <div className="flex flex-col justify-center items-start">
