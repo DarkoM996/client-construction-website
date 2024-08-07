@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import hero from "../public/images/picture8.jpg";
+import hero from "../public/images/picture10.jpg";
 
 export default function NotFound() {
   return (
