@@ -39,7 +39,7 @@ export default function NotFound() {
                 href="/"
                 className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px] text-center"
               >
-                Homepage
+                Back
               </Link>
               <Link
                 href="/projects"
