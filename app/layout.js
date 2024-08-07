@@ -16,8 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={cormorant.className}>
         <main className="w-full h-screen">
-          <Navbar />
-          <Suspense fallback={<Loading />}>{children}</Suspense>
+          <Suspense fallback={<Loading />}>
+            <Navbar />
+            {children}
+          </Suspense>
         </main>
       </body>
     </html>
