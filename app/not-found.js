@@ -30,7 +30,7 @@ export default function NotFound() {
           <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
             <p className="text-wrap w-full h-full">
               Unfortunately something went wrong. The page that you were looking
-              doesn't exist. You can go back to the homepage from here or go to
+              doesnt exist. You can go back to the homepage from here or go to
               the projects to select other projects.
             </p>
             {/* Buttons */}
