@@ -9,7 +9,7 @@ export default function NotFound() {
       <div className="flex flex-col justify-center items-start">
         {/* Test for change */}
         {/* Image Container */}
-        {/* <div className="hidden sm:flex relative w-full h-1/4 sm:h-[500px] md:h-[600px] ">
+        <div className="hidden sm:flex relative w-full h-1/4 sm:h-[500px] md:h-[600px] ">
           <Image
             priority
             height={600}
@@ -19,7 +19,7 @@ export default function NotFound() {
             // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
             className="w-full h-full object-cover rounded-3xl bg-center aspect-square"
           />
-        </div> */}
+        </div>
         {/* Text */}
         <div className="h-full w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-8 py-5">
           <div className="w-full md:w-1/2 lg:w-full">
