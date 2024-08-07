@@ -27,7 +27,7 @@ export default function NotFound() {
               Error 404. Something went wrong!
             </h1>
           </div>
-          <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
+          <div className="flex flex-col justify-center items-center gap-6 lg:gap-6 w-full md:w-1/2 lg:w-1/3 h-1/2  ">
             <p className="text-wrap w-full h-full">
               Unfortunately something went wrong. The page that you were looking
               doesnt exist. You can go back to the homepage from here or go to
@@ -37,7 +37,7 @@ export default function NotFound() {
             <div className="flex flex-col sm:flex-row w-full gap-4">
               <Link
                 href="/"
-                className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px] text-center"
+                className="px-8 py-4 bg-primary_lighterColor-200 hover:bg-primary_lighterColor-300 text-black rounded-full border border-black w-full sm:w-[160px] text-center"
               >
                 Back
               </Link>
