@@ -22,7 +22,7 @@ const AboutHero = () => {
           />
         </div>
         {/* Paragraph talking about who the company is */}
-        <h2 className="text-4xl md:text-5xl lg:text-6xl w-full lg:w-3/4">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl  w-full lg:w-3/4">
           We are an experienced team of construction professionals, and
           designers operating within Canada, with a combined 24 years of
           industry experience.
